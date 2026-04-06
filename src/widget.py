@@ -51,7 +51,7 @@ class Widget(QWidget):
 
 
     def init_db(self):
-        self.conn = sqlite3.connect("/home/lcdelcroix/Documents/j_ai_grandi_12.11.2025/Project/Python/weather/data/meteo_master.db")
+        self.conn = sqlite3.connect("data/meteo_master.db")
         self.cursor = self.conn.cursor()
 
         self.cursor.execute("""
