@@ -20,5 +20,5 @@
 
 1. **Cloner le projet**
    ```bash
-   git clone [https://github.com/votre-username/weather-diary.git](https://github.com/votre-username/weather-diary.git)
-   cd weather-diary
+   git clone https://github.com/klodDelkrua/Weather_Diary.git
+   cd Weather_Diary
